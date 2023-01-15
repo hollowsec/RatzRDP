@@ -1,7 +1,7 @@
 #!/bin/bash
 if [ "$1" == ""]
 then
-echo " BRUTE FORCE RDP - Lil D1x"
+echo " BRUTE FORCE RDP"
 echo "$0 User Domain wordlist.txt"
 else
 for pass in $(cat $3);
